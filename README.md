@@ -1,48 +1,24 @@
-# Arch Monochrome Dotfiles
+# Arch Onyx Dotfiles
 
-![License: MIT](https://img.shields.io/badge/License-MIT-1E90FF.svg)
-![Platform: Arch Linux](https://img.shields.io/badge/Platform-Arch_Linux-0078D7.svg)
-![Display: Wayland](https://img.shields.io/badge/Display-Wayland-4682B4.svg)
-![Compositor: Hyprland](https://img.shields.io/badge/Compositor-Hyprland-1E90FF.svg)
-![Prompt: Starship](https://img.shields.io/badge/Prompt-Starship-00CED1.svg)
-![Terminal: Alacritty](https://img.shields.io/badge/Terminal-Alacritty-2C2C2C.svg?logo=alacritty&logoColor=white)
-![Editor: Neovim](https://img.shields.io/badge/Editor-Neovim-3ECF8E.svg?logo=neovim&logoColor=white)
-![Status Bar: Waybar](https://img.shields.io/badge/Status_Bar-Waybar-00BFFF.svg)
-![Launcher: Wofi](https://img.shields.io/badge/Launcher-Wofi-5F9EA0.svg)
+![Platform](https://img.shields.io/badge/platform-Arch_Linux-blue.svg)
+![Display](https://img.shields.io/badge/display-Wayland-purple.svg)
+![Compositor](https://img.shields.io/badge/compositor-Hyprland-cyan.svg)
+![Terminal](https://img.shields.io/badge/terminal-Alacritty-orange.svg)
+![Editor](https://img.shields.io/badge/editor-Neovim-brightgreen.svg)
+![Prompt](https://img.shields.io/badge/prompt-Starship-yellow.svg)
+![Bar](https://img.shields.io/badge/bar-Waybar-blue.svg)
+![Launcher](https://img.shields.io/badge/launcher-Wofi-blueviolet.svg)
 
-## 📝 Overview
-
-This repository contains my personal dotfiles for an Arch Linux–based system.
-
-It represents the environment I actually use every day: a Wayland setup built on Hyprland, configured in a black-and-gray (monochrome) color scheme. The focus is not on extreme minimalism, but on practicality, consistency, and ease of installation.
-
-The configuration is intended to be straightforward to understand, reuse, and adapt, while keeping a clean and coherent visual style across the system.
+> A Wayland-based Arch Linux setup with an onyx (black-and-gray) color scheme — practical, consistent, and easy to install.
 
 ## 📸 Appearance
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a595e9ba-46b4-40ba-ae0f-a0f141b3d14a" />
 
 ## 💻 Installation
-
-### 1. Clone the repository
-
 ```bash
-git clone https://github.com/mykytakuzminov/arch-monochrome-dotfiles.git
-cd arch-monochrome-dotfiles
-```
-
-### 2. Make the installer executable
-
-```bash
-chmod +x install.sh
-```
-
-### 3. Run the installer
-
-```bash
-./install.sh
-```
-
-### 4. Reboot the system
-```bash
+git clone https://github.com/mykytakuzminov/arch-onyx-dotfiles.git
+cd arch-onyx-dotfiles
+chmod +x install.sh && ./install.sh
 reboot
 ```
